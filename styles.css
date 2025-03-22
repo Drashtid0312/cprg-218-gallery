@@ -1,9 +1,13 @@
+/*BODY*/
+
 body{
     font-family: sans-serif;
     background-color: #cccccc;
     padding: 0;
     margin: 0;
 }
+
+/*HEADER*/
 
 header{
     background-color: #120323;
@@ -16,6 +20,8 @@ header{
 h1{
     color: #97bf04;
 }
+
+/*FOR DEVICES LESS THAN 768PX WIDE*/
 
 @media (max-width: 768px){
     nav{
@@ -73,6 +79,8 @@ h1{
     }
 }
 
+/*FOR DEVICES LESS THAN 1000PX WIDE*/
+
 @media (min-width: 768px){
     header{
         width: 100%;
@@ -129,6 +137,8 @@ h1{
     }
 }
 
+/*FOR DEVICES GREATER THAN 1000PX WIDE*/
+
 @media (min-width: 1001px){
     header{
         width: 100%;
@@ -184,6 +194,8 @@ h1{
         grid-column: span 2;
     }
 }
+
+/*FOOTER*/
 
 footer{
     background-color: #d9043d;
